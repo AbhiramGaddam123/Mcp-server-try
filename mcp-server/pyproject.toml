@@ -1,0 +1,26 @@
+[project]
+name = "mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "apscheduler==3.10.4",
+    "faiss-cpu==1.9.0",
+    "google-api-python-client==2.146.0",
+    "google-auth==2.35.0",
+    "imaplib2==3.6",
+    "langchain>=0.3.8",
+    "langchain-community==0.3.1",
+    "langchain-google-genai==2.0.1",
+    "langchain-groq==0.2.0",
+    "langchain-huggingface==0.1.0",
+    "langchain-mcp-adapters==0.1.0",
+    "langgraph==0.2.34",
+    "mcp==0.3.0",
+    "nest-asyncio==1.6.0",
+    "python-dotenv==1.0.1",
+    "rapidfuzz==3.10.0",
+    "requests==2.32.3",
+    "tenacity==9.0.0",
+]
